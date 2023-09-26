@@ -1,3 +1,4 @@
+import 'package:celenote_app/screens/history_screen.dart';
 import 'package:celenote_app/screens/my_page.dart';
 import 'package:flutter/material.dart';
 
@@ -61,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final List<Widget> _pages = [
     const Text('ff'),
-    const Text('ss'),
+    const HistoryScreen(),
     const Text('3'),
     const MyPageScreen(),
   ];
