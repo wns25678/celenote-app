@@ -1,3 +1,4 @@
+import 'package:celenote_app/screens/my_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -62,7 +63,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const Text('ff'),
     const Text('ss'),
     const Text('3'),
-    const Text('4'),
+    const MyPageScreen(),
   ];
 
   @override
