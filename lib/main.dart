@@ -1,5 +1,5 @@
 import 'package:celenote_app/screens/history_screen.dart';
-import 'package:celenote_app/screens/my_page.dart';
+import 'package:celenote_app/screens/my_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
