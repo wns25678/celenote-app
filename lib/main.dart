@@ -18,7 +18,7 @@ void main() async {
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   await Firebase.initializeApp();
   WidgetsFlutterBinding.ensureInitialized();
-  FirebaseAuth.instance.idTokenChanges().listen((event) { 
+  FirebaseAuth.instance.idTokenChanges().listen((event) {
     if(event == null){
       Logger().e("User is currently signed out!");
     }else{
