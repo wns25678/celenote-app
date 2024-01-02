@@ -1,3 +1,4 @@
+import 'package:celenote_app/screens/login/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:celenote_app/screens/bottom_navigation/bottom_navigation.dart';
@@ -26,6 +27,8 @@ class NavigationHelper {
   static final GlobalKey<NavigatorState> routerKey =
       GlobalKey<NavigatorState>();
 
+  static final loginKey = GlobalKey<NavigatorState>();
+
   static final homeKey = GlobalKey<NavigatorState>();
   static final myRecordKey = GlobalKey<NavigatorState>();
   static final exKey = GlobalKey<NavigatorState>();
@@ -43,6 +46,16 @@ class NavigationHelper {
 
   NavigationHelper._internal() {
     final routes = [
+      GoRoute(
+        name: 'login',
+        path: '/login',
+        pageBuilder: (context, state) {
+          return getPage(
+            child: const LoginPage(),
+            state: state,
+          );
+        },
+      ),
       StatefulShellRoute.indexedStack(
         parentNavigatorKey: routerKey,
         pageBuilder: (
@@ -220,7 +233,7 @@ class NavigationHelper {
     router = GoRouter(
       debugLogDiagnostics: true,
       navigatorKey: routerKey,
-      initialLocation: '/home',
+      initialLocation: '/login',
       routes: routes,
       errorPageBuilder: (context, state) {
         return getPage(
