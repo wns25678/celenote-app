@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
       onTap: (){
         FocusManager.instance.primaryFocus?.unfocus();
       },
-      child: SafeArea(child: 
+      child: SafeArea(child:
     Scaffold(
       appBar: AppBar(),
       body: Container(
