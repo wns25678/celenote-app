@@ -2,9 +2,6 @@
 
 celenote app
 
-## Backend Repository
-https://github.com/pbj8723/celenote-backend
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
