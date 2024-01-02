@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90658992459",
+    "project_id": "cele-note",
+    "storage_bucket": "cele-note.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90658992459:android:cd1076c6916b1254d138ce",
+        "android_client_info": {
+          "package_name": "com.celenote.celenote_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90658992459-52mvd3d4olvsr4lvk241pk105bdqppdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA0C4QUlExFdUskVv9Cs2pG4O9IgBys4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90658992459-52mvd3d4olvsr4lvk241pk105bdqppdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
